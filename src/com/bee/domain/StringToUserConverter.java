@@ -1,4 +1,4 @@
-package com.baobaotao.domain;
+package com.bee.domain;
 
 
 import org.springframework.core.convert.converter.Converter;

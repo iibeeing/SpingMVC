@@ -1,4 +1,4 @@
-package com.baobaotao.domain;
+package com.bee.domain;
 
 import java.util.Date;
 

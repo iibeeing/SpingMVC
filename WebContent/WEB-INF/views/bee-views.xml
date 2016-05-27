@@ -7,7 +7,7 @@
 	<bean id="userListJson1"
 		class="org.springframework.web.servlet.view.json.MappingJacksonJsonView"
 		p:renderedAttributes="message" />
-    <bean id="userListExcel1" class="com.baobaotao.web.UserListExcelView"/>
-    <bean id="userListPdf1" class="com.baobaotao.web.UserListPdfView"/>		
+    <bean id="userListExcel1" class="com.bee.web.UserListExcelView"/>
+    <bean id="userListPdf1" class="com.bee.web.UserListPdfView"/>		
     
 </beans>

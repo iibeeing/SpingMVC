@@ -1,4 +1,4 @@
-package com.baobaotao.web;
+package com.bee.web;
 
 import java.io.File;
 import java.io.IOException;
@@ -42,9 +42,9 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.util.WebUtils;
 
-import com.baobaotao.UserService;
-import com.baobaotao.domain.Dept;
-import com.baobaotao.domain.User;
+import com.bee.UserService;
+import com.bee.domain.Dept;
+import com.bee.domain.User;
 
 @Controller
 @RequestMapping("/user")

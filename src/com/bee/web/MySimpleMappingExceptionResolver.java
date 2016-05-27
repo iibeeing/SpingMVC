@@ -1,4 +1,4 @@
-package com.baobaotao.web;
+package com.bee.web;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

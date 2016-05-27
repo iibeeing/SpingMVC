@@ -1,4 +1,4 @@
-package com.baobaotao.domain;
+package com.bee.domain;
 
 public class Dept {
 	private String deptId;
