@@ -1,13 +1,18 @@
-package com.bee;
+package com.bee.service;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.bee.base.dao.impl.BaseDao;
 import com.bee.domain.User;
 
 @Service
 public class UserService {
-   
+	@Autowired
+	BaseDao<User,String> baseDao;
+	
 	public void createUser(User user){
+		baseDao.save(user);
 		System.out.println("save user.");
 	}
 

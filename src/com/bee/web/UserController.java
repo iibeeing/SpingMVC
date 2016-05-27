@@ -42,9 +42,9 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.util.WebUtils;
 
-import com.bee.UserService;
 import com.bee.domain.Dept;
 import com.bee.domain.User;
+import com.bee.service.UserService;
 
 @Controller
 @RequestMapping("/user")
