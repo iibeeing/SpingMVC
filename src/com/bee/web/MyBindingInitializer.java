@@ -1,11 +1,11 @@
-package com.baobaotao.web;
+package com.bee.web;
 
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.support.WebBindingInitializer;
 import org.springframework.web.context.request.WebRequest;
 
-import com.baobaotao.domain.User;
-import com.baobaotao.domain.UserEditor;
+import com.bee.domain.User;
+import com.bee.domain.UserEditor;
 
 public class MyBindingInitializer implements WebBindingInitializer{
   public void initBinder(WebDataBinder binder, WebRequest request) {

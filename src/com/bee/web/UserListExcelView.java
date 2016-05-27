@@ -1,4 +1,4 @@
-package com.baobaotao.web;
+package com.bee.web;
 
 import java.util.List;
 import java.util.Map;
@@ -12,7 +12,7 @@ import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.springframework.web.servlet.view.document.AbstractExcelView;
 
-import com.baobaotao.domain.User;
+import com.bee.domain.User;
 
 public class UserListExcelView extends AbstractExcelView {
 	

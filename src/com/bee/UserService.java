@@ -1,8 +1,8 @@
-package com.baobaotao;
+package com.bee;
 
 import org.springframework.stereotype.Service;
 
-import com.baobaotao.domain.User;
+import com.bee.domain.User;
 
 @Service
 public class UserService {

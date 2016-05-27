@@ -1,4 +1,4 @@
-package com.baobaotao.web;
+package com.bee.web;
 
 
 import java.awt.Color;
@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.commons.lang.time.DateFormatUtils;
 import org.springframework.web.servlet.view.document.AbstractPdfView;
 
-import com.baobaotao.domain.User;
+import com.bee.domain.User;
 import com.lowagie.text.Cell;
 import com.lowagie.text.Document;
 import com.lowagie.text.Element;
