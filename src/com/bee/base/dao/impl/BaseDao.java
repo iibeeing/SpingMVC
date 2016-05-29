@@ -26,7 +26,7 @@ import com.bee.base.dao.IBaseDao;
 import com.bee.base.util.PageResults;
 import com.bee.base.util.RowMapper;
 
-@Repository
+@Repository("baseDao")
 public class BaseDao<T, ID extends Serializable> implements IBaseDao<T, ID> {
 
 	@Autowired
